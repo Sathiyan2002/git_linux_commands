@@ -1,0 +1,23 @@
+linux basic commands
+
+mkdir   -- To create directory
+cd      -- To switch directory
+cd ..   -- To switch back to previous directory
+touch   -- To create file
+pwd     -- Path of present directory
+ls      -- List all files and directory
+ls -l   -- with permission
+ls -a   -- To see hidden files and directory
+rmdir   -- To delete empty directory
+rm      -- to delete files
+cat     -- To see the content inside the file
+echo    -- To print
+man     -- Manual of commands
+whoami  -- who is the user of file
+clear   -- To clear screen
+history -- TO see the history of commands
+rm -r "directory name"          -- To delete directory and its file
+mkdir dir1 di2 dir3             -- To create multiple directory
+mkdir dir/dir1/subdir           -- To create directory inside directory
+touch file1 file2 file3         -- To create multiple files
+touch filename{1..20}.extension -- To create n numbers of files 

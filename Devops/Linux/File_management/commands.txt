@@ -1,0 +1,5 @@
+File management commands
+
+mv filename directory       -- To move a file to another directory
+cp filename directory       -- To copy a file to another directory
+mv oldfilename newfilename  -- To rename the file

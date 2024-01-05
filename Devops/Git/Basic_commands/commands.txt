@@ -1,0 +1,36 @@
+Basic commands
+
+git init -- Initialization
+git config user.name "username"         -- To configuration username
+git config user.email "useremail"       -- To configuration email
+git add "filename"                      -- To add file to staging area
+git add .                               -- To add all files to staging area 
+git add *.extension                     -- To add all files to staging area in the give extension
+git commit -m "message"                 -- To commit the file staging area to local repo
+git push origin master/Branch           -- To push the file to remote repo
+git remote add origin "Remote repo url" -- To connect remote repo to local repo
+git status                              -- To see the difference between working area to staging area
+git log                                 -- To see the history of commits
+git log --oneline                       -- To see the history of commits in oneline
+git log -number                         -- To see number of commits
+git log "filename"                      -- To see commits of history of particular file
+git reflog                              -- To list all logs of commit
+history                                 -- To see History of all commands
+git clone "Remote repo URL"             -- To Download all files from remote repo to local repo
+git rm --cached "filename"              -- To remove file in remote repo
+git branch "branchname"                 -- To create a Branch
+git checkout -b "branchname"            -- To create a Branch and switch to branch in single command
+git checkout "branchname"               -- To switch branch
+git switch "branchname"                 -- To switch branch
+git branch                              -- To list branch
+git branch --list                       -- To list branch
+git merge "branchname"                  -- To merge branch into remote master(it will take extra one commits)
+git rebase "branchname"                 -- To merge branch into master (it will not take extra commits)
+git branch -d "branchname"              -- Delete a branch before commit
+git branch -D "branchname"              -- Delete a branch after commit
+git push orgin -d "branchname"          -- To delete a branch in remote repo
+git remote rm origin                    -- To remove remote repo
+git cherry-pick "commit id"             -- To take particular commit to master
+git checkout "filename"                 -- It will get back one file from staging area to working directory
+git checkout .                          -- For getting back all the files
+git config --edit                       -- To edit changes in configuration details

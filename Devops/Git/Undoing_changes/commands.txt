@@ -1,0 +1,8 @@
+Undoing changes commands
+
+git config -- edit         -- To edit changes in configuration details
+git rm --cached "filename" -- Remove file in remote repo
+git remote rm origin       -- To remove remote repo
+git checkout "filename"    -- It will file from staging area to working directory
+git checkout .             -- It will return all files
+git commit --ammend "filename"  
